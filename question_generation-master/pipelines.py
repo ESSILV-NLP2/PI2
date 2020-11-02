@@ -13,7 +13,11 @@ from transformers import(
 )
 
 logger = logging.getLogger(__name__)
-#ceci est un test
+
+#ceci est un test de mathieu
+#ceci est un test de Thalohs
+
+
 class QGPipeline:
     """Poor man's QG pipeline"""
     def __init__(
