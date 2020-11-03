@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 #ceci est un test de Baptiste
 #test Marco
 #test suzanne 
-
+#test3
 
 class QGPipeline:
     """Poor man's QG pipeline"""
