@@ -18,6 +18,7 @@ logger = logging.getLogger(__name__)
 #ceci est un test de Thalohs
 #ceci est un test de Baptiste
 #test Marco
+#test suzanne 
 
 
 class QGPipeline:
