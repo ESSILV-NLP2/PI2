@@ -5,6 +5,7 @@ from typing import Optional, Dict, Union
 from nltk import sent_tokenize
 
 import torch
+
 from transformers import(
     AutoModelForSeq2SeqLM, 
     AutoTokenizer,
@@ -18,7 +19,9 @@ logger = logging.getLogger(__name__)
 #ceci est un test de Thalohs
 #ceci est un test de Baptiste
 #test Marco
-#test suzanne 
+#test suzanne
+#test Baptiste2
+
 
 
 class QGPipeline:
