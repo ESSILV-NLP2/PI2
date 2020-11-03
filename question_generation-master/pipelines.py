@@ -14,14 +14,6 @@ from transformers import(
 
 logger = logging.getLogger(__name__)
 
-#ceci est un test de mathieu
-#ceci est un test de Thalohs
-#ceci est un test de Baptiste
-#test Marco
-#test suzanne
-#test Baptiste2
-#test Alfred
-
 
 
 class QGPipeline:
