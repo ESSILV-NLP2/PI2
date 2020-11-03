@@ -18,8 +18,10 @@ logger = logging.getLogger(__name__)
 #ceci est un test de Thalohs
 #ceci est un test de Baptiste
 #test Marco
-#test suzanne 
-#test3
+#test suzanne
+#test Baptiste2
+
+
 
 class QGPipeline:
     """Poor man's QG pipeline"""
