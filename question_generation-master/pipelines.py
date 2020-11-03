@@ -20,6 +20,7 @@ logger = logging.getLogger(__name__)
 #test Marco
 #test suzanne
 #test Baptiste2
+#test Alfred
 
 
 
