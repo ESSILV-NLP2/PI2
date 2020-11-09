@@ -17,6 +17,13 @@ nlp = pipeline("question-generation")
 
 
 nlp(text3)
+nlp(text3)
+
+nlp(text3)
+nlp(text3)
+
+nlp(text3)
+
 
 import os
 
