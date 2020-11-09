@@ -72,9 +72,14 @@ class SquadMultitaskConfig(nlp.BuilderConfig):
 class SquadMultitask(nlp.GeneratorBasedBuilder):
     """SQUAD: The Stanford Question Answering Dataset. Version 1.1."""
 
-    _URL = "https://rajpurkar.github.io/SQuAD-explorer/dataset/"
+    _URL = "https://rajpurkar.github.io/SQuAD-explorer/dataset/"   """ Ce lien n'est plus fonctionnel"""
     _DEV_FILE = "dev-v1.1.json"
     _TRAINING_FILE = "train-v1.1.json"
+
+    """ Les bons liens sont : 
+            https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v2.0.json
+            https://rajpurkar.github.io/SQuAD-explorer/dataset/dev-v2.0.json
+    """
 
     BUILDER_CONFIGS = [
         SquadMultitaskConfig(
