@@ -41,7 +41,7 @@ def modify_date(answer_date):
 
 
 
-def modify_answer(answer, nlp_fr, model_fr):
+def modify_answer_to_incorrect(answer, nlp_fr, model_fr):
     answer = answer.lower()
     doc_fr = nlp_fr(answer)
     important_words_answer = [X for X in doc_fr if X.tag_[:4] not in avoid_tags] # 4 == taille des avoid_tags
@@ -64,5 +64,5 @@ def modify_answer(answer, nlp_fr, model_fr):
 
 if __name__ == "__main__":
     answer = "Chez Chirac nous mangeons bien."
-    answer_modified = modify_answer(answer, nlp_fr, french_model)
+    answer_modified = modify_answer_to_incorrect(answer, nlp_fr, french_model)
     print(answer_modified)
